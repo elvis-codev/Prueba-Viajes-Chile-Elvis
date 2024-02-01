@@ -8,19 +8,26 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
+.hr-viaje {
+    color: white;
+
+}
+
 /* Sección Quienes Somos */
 .container-somos {
     background-color: black;
     color: white;
+    padding: 0px 100px 0px 100px;
 }
 
-.container-somos h3 {
+.container-somos h4 {
     text-align: center;
     padding: 40px 0px 10px 0px;
+    font-family: 'Cabin';
     font-weight: 400;
 }
 
-.container-somos .col-4 i {
+.container-somos i {
     background-color: #36c9ff;
     color: white;
     width: 100%;
@@ -31,18 +38,67 @@ body {
 }
 
 /* Sección Tarjetas */
+.tarjetas {
+    background-color: black;
+    padding: 60px 100px 0px 100px;
+}
+
 .tarjetas .card img {
     width: 100%;
     height: 180px;
 }
 
-.tarjetas {
-    background-color: black;
-    padding: 60px 50px 0px 50px;
-}
-
 .tarjetas .card {
     background-color: #36c9ff;
     color: white;
+}
 
+.tarjetas h4 {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    color: white;
+}
+
+
+/* Sección Contacto */
+.contacto {
+    background-color: black;
+    color: white;
+    padding: 50px 100px 40px 100px;
+
+}
+
+.contacto h4 {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+    font-family: 'Cabin';
+    font-weight: 400;
+
+}
+
+.contacto button {
+    background-color: #36c9ff;
+    color: white;
+
+}
+
+/* Sección Footer */
+
+.footer-viaje {
+    background-color: #36c9ff;
+    padding: 30px 0px 30px 300px;
+}
+
+.footer-viaje p {
+    color: white;
+    font-family: 'Cabin';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.footer-viaje a {
+    color: white;
+    padding: 0px 20px 0px 0px;
 }
