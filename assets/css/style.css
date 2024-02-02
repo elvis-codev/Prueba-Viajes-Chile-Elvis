@@ -8,13 +8,13 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
-.fixed-top {
-    background-color: transparent;
-}
-
 .hr-viaje {
     color: white;
+}
 
+/* Sección Navbar */
+.navbar-scrolled {
+    background-color: #36c9ff;
 }
 
 /* Sección Quienes Somos */
