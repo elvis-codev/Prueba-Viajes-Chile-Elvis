@@ -8,6 +8,10 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
+.fixed-top {
+    background-color: transparent;
+}
+
 .hr-viaje {
     color: white;
 
@@ -51,6 +55,7 @@ body {
 .tarjetas .card {
     background-color: #36c9ff;
     color: white;
+    padding: 0px 0px 0px 0px;
 }
 
 .tarjetas h4 {
